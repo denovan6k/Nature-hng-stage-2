@@ -23,10 +23,10 @@ function ChartPage() {
        </Link>
       </li>
     </ul>
-    <div className='sm:justify-center sm:space-x-[200px] ml-[36px] mt-[17px] hidden md:flex mb-[33px] space-x-[56px]'>
+    <div className='sm:ml-[40px] sm:space-x-[20px] ml-[36px] mt-[17px] hidden sm:flex mb-[33px] space-x-[56px]'>
             <div className=''>
             <Link to="/">
-                 <Icon icon='ep:back' className='hidden md:flex text-[24px] '/>
+                 <Icon icon='ep:back' className='hidden sm:flex text-[24px] '/>
                  </Link>
             </div>
              <div className='mr-[56px]'>
@@ -38,7 +38,7 @@ function ChartPage() {
      <div className='ml-[36px]  lg:ml-[128px] lg:mr-[68px]'>
       <ChartCard/>
     </div>
-    <div className='hidden md:flex ml-[36px] sm:ml-[0px] sm:justify-center'>
+    <div className='hidden sm:flex ml-[36px] sm:ml-[0px] sm:justify-center'>
      <Delivery/>
     </div>
     <div className='hidden lg:flex'>

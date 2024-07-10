@@ -16,9 +16,9 @@ export default {
 
       // 'md': {'min': '767px'},
       // // => @media (max-width: 767px) { ... }
-       'md': {'max': '641px'},
        
-      'sm': {'min': '400px', 'max': '640px'},
+       
+      'sm': {'min': '375px', 'max': '1023px'},
       
       // => @media (max-width: 639px) { ... }
       // 'xs': {'min': '375px'},

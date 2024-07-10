@@ -25,7 +25,7 @@ const LandingPage = () => {
               </ul>
                </div> 
             </div>
-            <Buttons className='hidden md:flex  text-[24px] mx-auto mt-2 text-center w-[300px] bg-[#fffF] border-2 border-slate-200  text-slate-300 rounded-lg' icon='material-symbols:search' spanclassName='sm:mt-[4px] ml-[13px]'/>
+            <Buttons className='hidden sm:flex  text-[24px] mx-auto mt-2 text-center w-[300px] bg-[#fffF] border-2 border-slate-200  text-slate-300 rounded-lg' icon='material-symbols:search' spanclassName='sm:mt-[4px] ml-[13px]'/>
 
             <div className='hidden lg:flex lg:space-x-[32px] lg:mr-[20px]  font-bold '>
               <ul className="flex space-x-[20px]">  <li>
